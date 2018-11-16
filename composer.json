@@ -1,0 +1,25 @@
+{
+  "name": "microshard/console",
+  "authors" : [{
+    "name" : "Rene Winklewski",
+    "email" : "rene.winklewski@gmail.com"
+  }],
+  "keywords" : [],
+  "license" : [
+    "MIT"
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4" : {
+      "Microshard\\Console\\" : "src/",
+      "Microshard\\Console\\Test\\" : "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "microshard/application": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
